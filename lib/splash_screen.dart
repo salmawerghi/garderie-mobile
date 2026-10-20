@@ -41,7 +41,7 @@ class _SplashScreenState extends State<SplashScreen> {
             Image.asset(
               'assets/images/garderie.png',
               height: 260,
-              errorBuilder: (_, __, ___) =>
+              errorBuilder: (_, _, _) =>
                   const Icon(Icons.child_care, size: 150, color: Colors.orange),
             ),
             const SizedBox(height: 24),
